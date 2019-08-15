@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-   <link rel="stylesheet" href="css/styles.css">
    <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/styles.css">
    <script src="js/jquery-3.4.1.js"></script>
    <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Triangle</title>
   </head>
   <body>
+    <div class="container">
+      <h1>What kind of triangle is it?</h1>
+      <form class="formOne">
+
+        <div class="side1">
+          <label for="side1">Enter the first side in inches:</label>
+          <input type="text" id="side1">
+        </div>
+
+        <div class="side2">
+          <label for="side2">Enter the second side in inches:</label>
+          <input type="text" id="side2">
+        </div>
+
+        <div class="side3">
+          <label for="side3">Enter the third side in inches:</label>
+          <input type="text" id="side3">
+        </div>
+        <button type="submit" class="btn btn-warning">Submit your triangle!</button>
+
+      </form>
+
+      <p id="equilateral">Congratulations! It's an equilateral!
+        <img src="equilateral.jpeg" alt="">
+      </p>
+      <p id="isoceles">Congratulations! It's an isoceles!
+        <img src="isoceles.png" alt="">
+      </p>
+      <p id="scalene">Congratulations! It's an scalene!
+        <img src="scalene.png" alt="">
+      </p>
+      <p id="no">OH NO WHAT EVEN IS THAT?!
+        <img src="ohgodwhy.jpeg" alt="">
+      </p>
+
+
+
+    </div>
 
   </body>
 </html>
